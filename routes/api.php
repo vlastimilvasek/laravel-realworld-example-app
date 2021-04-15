@@ -11,7 +11,9 @@
 |
 */
 
-Route::group(['namespace' => 'Api'], function () {
+Route::group([
+    'namespace' => 'Api'
+], function () {
 
     Route::post('users/login', 'AuthController@login');
     Route::post('users', 'AuthController@register');

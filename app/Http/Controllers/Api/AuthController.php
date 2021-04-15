@@ -54,4 +54,5 @@ class AuthController extends ApiController
 
         return $this->respondWithTransformer($user);
     }
+  
 }
